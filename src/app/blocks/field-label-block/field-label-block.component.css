@@ -9,6 +9,7 @@
 
 .subtitle {
     font-size: 3vw;
+    margin: 0px;
+    padding: 0px;
     text-align: center;
-    line-height: 0%;
 }

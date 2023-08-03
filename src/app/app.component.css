@@ -11,3 +11,7 @@
 .SelectTeleop {
     background-color: #bdd4cf;
 }
+
+.disable-doubletap-to-zoom {
+    touch-action: none;
+}

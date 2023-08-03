@@ -8,6 +8,7 @@ import { FieldsListComponent } from './components/fields-list/fields-list.compon
 import { ToggleFieldComponent } from './components/toggle-field/toggle-field.component';
 import { TopBarComponent } from './components/top-bar/top-bar.component';
 import { FieldLabelBlockComponent } from './blocks/field-label-block/field-label-block.component';
+import { FullScoreComponent } from './components/full-score/full-score.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { FieldLabelBlockComponent } from './blocks/field-label-block/field-label
     FieldsListComponent,
     ToggleFieldComponent,
     TopBarComponent,
-    FieldLabelBlockComponent
+    FieldLabelBlockComponent,
+    FullScoreComponent
   ],
   imports: [
     BrowserModule,
