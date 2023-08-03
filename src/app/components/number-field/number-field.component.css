@@ -30,7 +30,6 @@
     cursor: pointer;
     font-size: 10vw;
     text-align: center;
-    touch-action: pan-y;
 }
 
 .inc {

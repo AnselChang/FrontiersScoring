@@ -11,7 +11,3 @@
 .SelectTeleop {
     background-color: #bdd4cf;
 }
-
-* {
-    touch-action: manipulation;
-}
