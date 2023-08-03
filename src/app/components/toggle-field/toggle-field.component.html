@@ -1,0 +1,11 @@
+<div class="toggle-container">
+
+    <app-field-label-block>{{getField().label}}:</app-field-label-block>
+
+    <button class="togglebutton"
+        (click) = "toggle()"
+        (mouseenter)="onMouseEnter()"
+        (mouseleave)="onMouseLeave()"
+        [style.backgroundColor] = "getColor()"
+    >{{getButtonText()}}</button>
+</div>

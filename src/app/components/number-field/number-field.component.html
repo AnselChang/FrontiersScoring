@@ -1,0 +1,16 @@
+<div class="inc-dec-container">
+
+    <app-field-label-block [subtitle]="getField().definition">{{getField().label}}:</app-field-label-block>
+
+    <p class="value"> {{getField().getValue()}} </p>
+
+    <button class="counterbutton dec"
+        (click) = "decrement()"
+        [disabled]="!getField().canDecrement()"
+    >-</button>
+
+    <button class="counterbutton inc"
+    (click) = "increment()"
+    [disabled]="!getField().canIncrement()"
+    >+</button>
+</div>

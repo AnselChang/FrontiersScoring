@@ -1,0 +1,24 @@
+.toggle-container {
+    background-color: #A1CCD1;
+    border-radius: 10px;
+    margin: 5%;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    border: 1px solid black;
+}
+
+
+.togglebutton {
+    width: 40%;
+    aspect-ratio: 2/1;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 10vw;
+    text-align: center;
+}

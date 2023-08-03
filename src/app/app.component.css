@@ -1,0 +1,13 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.SelectAuton {
+    background-color: #e2d3c6;
+}
+
+.SelectTeleop {
+    background-color: #bdd4cf;
+}

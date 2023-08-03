@@ -1,0 +1,60 @@
+.inc-dec-container {
+    background-color: #A1CCD1;
+    border-radius: 10px;
+    margin: 5%;
+    padding: 2%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1%;
+    border: 1px solid black;
+}
+
+.value {
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 10vw;
+    font-style: bold;
+    text-align: center;
+    padding: 2%;
+    margin: 1%;
+}
+
+.counterbutton {
+    width: 20%;
+    aspect-ratio: 1/1;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 10vw;
+    text-align: center;
+}
+
+.inc {
+    background-color: rgb(79, 220, 79);
+}
+
+.inc:hover {
+    background-color: rgb(79, 220, 79, 0.9);
+}
+
+.inc:disabled {
+    background-color: rgb(79, 220, 79, 0.5);
+    cursor: not-allowed;
+}
+
+.dec {
+    background-color: rgb(220, 79, 79);
+    position: relative;
+}
+
+.dec:hover {
+    background-color: rgb(220, 79, 79, 0.9);
+}
+
+.dec:disabled {
+    background-color: rgb(220, 79, 79, 0.5);
+    cursor: not-allowed;
+}

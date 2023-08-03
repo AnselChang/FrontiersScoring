@@ -1,0 +1,13 @@
+<div class="topbar">
+    
+    <button *ngFor="let m of [mode.AUTON, mode.TELEOP]"
+    class="mode {{getString(m)}} {{m === getMode() ? 'select' : 'deselect'}}"
+            (click) = "click(m)" 
+        >
+        
+        <p>{{getString(m)}}</p>
+        
+        <p class="score">{{getScore(m)}}</p>
+
+    </button>
+</div>
